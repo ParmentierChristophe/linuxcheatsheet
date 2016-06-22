@@ -48,8 +48,15 @@ h2 {
   position: fixed;
   z-index: 3;
 }
+.row {
+max-width: 960px;
+margin: auto;
+
+
+}
 
 p {
+  text-align: center;
   padding-top: 350px;
   z-index: 1;
 }
