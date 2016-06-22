@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+  *
+  {
+  	margin : 0; padding : 0; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+  img { border : none; vertical-align: middle; }
+  ul { list-style: none; }
+  .clear { clear: both; }
+  a { text-decoration: none; color : inherit; }
+  a:hover { text-decoration: underline; }
+
+
+header {
+  width: 100%;
+  height: 300px;
+  background-color: #f97912;
+}
+
+ .title {
+      font-family: 'bebas_neueregular';
+      text-align: center;
+      padding-top: 50px;
+      color: #fff;
+      font-size: 100px;
+}
+h2 {
+  font-family: 'bebas_neueregular';
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.triangle {
+  background-image: url(triangle.png);
+  background-repeat: repeat-x;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+}
