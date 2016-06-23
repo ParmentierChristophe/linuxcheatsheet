@@ -42,6 +42,11 @@ h2 {
   color: #fff;
   font-size: 50px;
 }
+.intro{
+margin-bottom: 50px;
+
+
+}
 
 .triangle {
   background-image: url(triangle.png);
@@ -81,4 +86,13 @@ p {
   padding: 5px;
   text-align: center;
   z-index: 1;
+}
+
+.thanks {
+  text-align: center;
+  font-family: 'bebas_neueregular';
+  color: #f97912;
+  margin-top: 50px;
+  font-size: 50px;
+  line-height: 0.8em;
 }
